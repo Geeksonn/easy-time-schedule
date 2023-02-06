@@ -1,0 +1,44 @@
+{
+    "name": "easy-time-schedule",
+    "version": "1.0.0",
+    "description": "Easy component for booking timeslots",
+    "main": "dist/cjs/index.js",
+    "module": "dist/esm/index.js",
+    "files": [
+        "dist"
+    ],
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "rollup": "rollup -c",
+        "start-example": "cd example && npm start",
+        "restart-example": "rollup -c && cd example && npm start"
+    },
+    "keywords": [
+        "time",
+        "schedule",
+        "booking",
+        "calendar"
+    ],
+    "author": "O. Sputael",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.20.12",
+        "@babel/preset-react": "^7.18.6",
+        "@rollup/plugin-babel": "^6.0.3",
+        "@rollup/plugin-commonjs": "^24.0.1",
+        "@rollup/plugin-node-resolve": "^15.0.1",
+        "@rollup/plugin-typescript": "^11.0.0",
+        "@types/react": "^18.0.27",
+        "autoprefixer": "^10.4.13",
+        "babel": "^6.23.0",
+        "babel-loader": "^9.1.2",
+        "postcss-import": "^15.1.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "rollup": "^3.14.0",
+        "rollup-plugin-dts": "^5.1.1",
+        "rollup-plugin-postcss": "^4.0.2",
+        "tailwindcss": "^3.2.4",
+        "typescript": "^4.9.5"
+    }
+}
